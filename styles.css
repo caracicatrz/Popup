@@ -1,0 +1,44 @@
+button {
+    display: block;
+    margin: 20px auto;
+    background: seagreen;
+    color: bisque;
+    border: 0px;
+    padding: 6px 10px;
+    ;
+}
+
+.popup-wrapper {
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.popup {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+    padding: 20px;
+    margin: 10% auto;
+    background: ivory;
+    position: relative;
+}
+
+.popup a {
+    background: crimson;
+    color: #eee;
+    text-decoration: wavy;
+    padding: 6px 10px;
+}
+
+.popup-close {
+    position: absolute;
+    top: 5px;
+    right: 8 px;
+    cursor: pointer;
+}
